@@ -84,7 +84,7 @@ namespace surg_tlx
             // 
             // mDemand
             // 
-            mDemand.Location = new Point(54, 109);
+            mDemand.Location = new Point(54, 106);
             mDemand.Maximum = 20;
             mDemand.Name = "mDemand";
             mDemand.Size = new Size(300, 45);
@@ -169,7 +169,7 @@ namespace surg_tlx
             // 
             // pDemand
             // 
-            pDemand.Location = new Point(54, 189);
+            pDemand.Location = new Point(54, 188);
             pDemand.Maximum = 20;
             pDemand.Name = "pDemand";
             pDemand.Size = new Size(300, 45);
@@ -206,7 +206,7 @@ namespace surg_tlx
             // 
             // tDemand
             // 
-            tDemand.Location = new Point(54, 271);
+            tDemand.Location = new Point(54, 269);
             tDemand.Maximum = 20;
             tDemand.Name = "tDemand";
             tDemand.Size = new Size(300, 45);
@@ -317,7 +317,7 @@ namespace surg_tlx
             // 
             // Distractions
             // 
-            Distractions.Location = new Point(61, 536);
+            Distractions.Location = new Point(54, 521);
             Distractions.Maximum = 20;
             Distractions.Name = "Distractions";
             Distractions.Size = new Size(300, 45);
@@ -400,7 +400,7 @@ namespace surg_tlx
             errorLabel.AutoSize = true;
             errorLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             errorLabel.ForeColor = Color.Red;
-            errorLabel.Location = new Point(119, 602);
+            errorLabel.Location = new Point(109, 602);
             errorLabel.Name = "errorLabel";
             errorLabel.Size = new Size(196, 15);
             errorLabel.TabIndex = 34;
@@ -412,6 +412,7 @@ namespace surg_tlx
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(416, 637);
+            ControlBox = false;
             Controls.Add(errorLabel);
             Controls.Add(label26);
             Controls.Add(label25);
@@ -448,6 +449,7 @@ namespace surg_tlx
             Controls.Add(cancelButton);
             Controls.Add(mDemand);
             Name = "Part1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Questionnaire";
             ((System.ComponentModel.ISupportInitialize)mDemand).EndInit();
             ((System.ComponentModel.ISupportInitialize)pDemand).EndInit();

@@ -60,7 +60,7 @@
             label2.Name = "label2";
             label2.Size = new Size(240, 75);
             label2.TabIndex = 2;
-            label2.Text = "On each of the following 15 screens, click on the scale title that represents the more umportant contributor to workload for the task";
+            label2.Text = "On each of the following 15 screens, click on the scale title that represents the more important contributor to workload for the task";
             // 
             // topButton
             // 
@@ -98,12 +98,14 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            ControlBox = false;
             Controls.Add(label3);
             Controls.Add(botButton);
             Controls.Add(topButton);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Part2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Part2";
             ResumeLayout(false);
             PerformLayout();

@@ -9,7 +9,7 @@ namespace surg_tlx
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            errorLabel.Visible = false;
         }
 
         private void cancelButton_Click(object sender, EventArgs e)
