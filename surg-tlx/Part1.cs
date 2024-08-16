@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace surg_tlx
 {
@@ -37,6 +38,12 @@ namespace surg_tlx
         {
             if (checkScales())
             {
+                Part2Instructions instructions = new Part2Instructions();
+                this.Hide();
+                instructions.ShowDialog();
+                Part2 part2 = new Part2();
+                part2.LoadData(mDemandValue, pDemandValue, tDemandValue, complexityValue, stressValue, distractionsValue, passedID);
+                part2.ShowDialog();
                 this.Close();
             }
             else
