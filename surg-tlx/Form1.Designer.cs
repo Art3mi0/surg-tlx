@@ -39,7 +39,7 @@
             // 
             idLabel.AutoSize = true;
             idLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            idLabel.Location = new Point(32, 41);
+            idLabel.Location = new Point(32, 53);
             idLabel.Name = "idLabel";
             idLabel.Size = new Size(120, 21);
             idLabel.TabIndex = 0;
@@ -48,7 +48,7 @@
             // textBox1
             // 
             textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(203, 33);
+            textBox1.Location = new Point(203, 45);
             textBox1.MaxLength = 12;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(146, 29);
@@ -59,7 +59,7 @@
             // cancelButton
             // 
             cancelButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cancelButton.Location = new Point(392, 33);
+            cancelButton.Location = new Point(392, 45);
             cancelButton.Name = "cancelButton";
             cancelButton.Size = new Size(80, 35);
             cancelButton.TabIndex = 2;
@@ -70,7 +70,7 @@
             // okButton
             // 
             okButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            okButton.Location = new Point(503, 33);
+            okButton.Location = new Point(503, 45);
             okButton.Name = "okButton";
             okButton.Size = new Size(80, 35);
             okButton.TabIndex = 3;
@@ -84,7 +84,7 @@
             errorLabel.BackColor = SystemColors.Control;
             errorLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             errorLabel.ForeColor = Color.Red;
-            errorLabel.Location = new Point(203, 65);
+            errorLabel.Location = new Point(203, 77);
             errorLabel.Name = "errorLabel";
             errorLabel.Size = new Size(146, 21);
             errorLabel.TabIndex = 4;

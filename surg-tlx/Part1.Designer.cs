@@ -309,7 +309,7 @@ namespace surg_tlx
             // 
             label18.AutoSize = true;
             label18.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
-            label18.Location = new Point(164, 501);
+            label18.Location = new Point(164, 492);
             label18.Name = "label18";
             label18.Size = new Size(82, 17);
             label18.TabIndex = 23;
@@ -389,7 +389,7 @@ namespace surg_tlx
             // label26
             // 
             label26.AutoSize = true;
-            label26.Location = new Point(79, 518);
+            label26.Location = new Point(79, 509);
             label26.Name = "label26";
             label26.Size = new Size(264, 15);
             label26.TabIndex = 33;
