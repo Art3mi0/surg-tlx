@@ -81,9 +81,9 @@ namespace surg_tlx
                 outputFile.WriteLine("Mental Demand," + mDemandValue.ToString() + "," + mDemandWeight.ToString());
                 outputFile.WriteLine("Physical Demand," + pDemandValue.ToString() + "," + pDemandWeight.ToString());
                 outputFile.WriteLine("Temporal Demand," + tDemandValue.ToString() + "," + tDemandWeight.ToString());
-                outputFile.WriteLine("Mental Demand," + complexityValue.ToString() + "," + complexityWeight.ToString());
-                outputFile.WriteLine("Mental Demand," + stressValue.ToString() + "," + stressWeight.ToString());
-                outputFile.WriteLine("Mental Demand," + distractionsValue.ToString() + "," + distractionsWeight.ToString());
+                outputFile.WriteLine("Task Complexity," + complexityValue.ToString() + "," + complexityWeight.ToString());
+                outputFile.WriteLine("Situational Stress," + stressValue.ToString() + "," + stressWeight.ToString());
+                outputFile.WriteLine("Distractions," + distractionsValue.ToString() + "," + distractionsWeight.ToString());
                 outputFile.WriteLine("Total Workload," + totalWorkload.ToString() + ",1");
             }
         }

@@ -384,7 +384,7 @@ namespace surg_tlx
             label25.Name = "label25";
             label25.Size = new Size(310, 15);
             label25.TabIndex = 32;
-            label25.Text = "How anxious id you feel while performing the procedure?";
+            label25.Text = "How anxious did you feel while performing the procedure?";
             // 
             // label26
             // 
